@@ -1,0 +1,130 @@
+
+body {
+    font-family: 'Montserrat';
+}
+
+.header {
+    max-width: 1178px;
+    margin: 40px;
+}
+
+#logo {
+    display: inline-block;
+    width: 430px;
+}
+
+#logo img {
+    margin-left: 6rem;
+}
+
+#menu{
+    display: inline-block;
+    font-size: 14px;
+}
+ul {
+    list-style-type:none;
+    margin-left: 2rem;
+    
+}
+
+li {
+    display: inline;
+    padding-left: 2rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #A5A5A5;
+}
+
+.icon {
+    display: inline-block;
+ 
+    
+}
+
+.icon img {
+    margin-bottom: -5px;
+    margin-left: 3rem;
+    width: 24px;
+    height: 24px;
+
+}
+.btn {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+button {
+    padding: 13px 32px 13px 32px;
+    background-color: #EFCC49;
+    border: none;
+    font-family: Montserrat;
+}   
+
+/* SECTION ONE  */
+
+.section_one {
+    padding-right: 140px;
+    /* max-width: 1178px; */
+}
+
+.title_one h1 {
+    display: inline-block;
+    font-size: 64px;
+    background: rgba(255, 255, 255, 0.56);
+    box-shadow: 0px 24px 34px 0px rgba(4, 5, 18, 0.04);
+    backdrop-filter: blur(6px);
+    padding: 2rem 2rem 2rem 0rem;
+    
+}
+
+.image_one {
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
+.image_one {
+    width: 620px;
+    height: 410px;
+}
+
+.ornamet {
+    display: inline-block;
+}
+.ornamet .img {
+    position: absolute;
+    z-index: 2;
+    float: right;
+
+}
+.title_one {
+    float: left;
+    position: absolute;
+    z-index: 2;
+    margin-left: 9rem;
+}
+
+.book_input {
+    width: 400px;
+    height: 45px;
+    float: left;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    box-shadow: -17px 13px 68px 0px rgba(7, 10, 25, 0.08);
+}
+
+.enter_btn {
+    width: 87px;
+    height: 46px;
+    float: right;
+    border: none;
+    background: #EFCC49;
+}
+
+.article_one {
+    margin-right: 1rem;
+}
