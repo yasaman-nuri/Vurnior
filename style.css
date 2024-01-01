@@ -8,12 +8,12 @@ body {
     margin: 40px;
 }
 
-#logo {
+.logo {
     display: inline-block;
     width: 430px;
 }
 
-#logo img {
+.logo img {
     margin-left: 6rem;
 }
 
@@ -63,10 +63,18 @@ button {
     font-family: Montserrat;
 }   
 
+p {
+    color: #A5A5A5;
+}
 /* SECTION ONE  */
 
+.pr {
+    display: flex;
+    flex-direction: column;
+}
 .section_one {
     padding-right: 140px;
+    /* min-width: 30vh; */
     /* max-width: 1178px; */
 }
 
@@ -84,34 +92,36 @@ button {
     float: right;
     position: relative;
     z-index: 1;
+    width: 677px;
+    height: 485px;
 }
 
-.image_one {
-    width: 620px;
-    height: 410px;
-}
 
 .ornamet {
     display: inline-block;
 }
-.ornamet .img {
+.ornamet-img {
     position: absolute;
     z-index: 2;
     float: right;
+    top: 0;
+    right: 0;;
 
 }
 .title_one {
     float: left;
     position: absolute;
     z-index: 2;
-    margin-left: 9rem;
+    margin-left: 5rem;
+    width: 560px;
+    height: 225px;
 }
 
 .book_input {
     width: 400px;
     height: 45px;
     float: left;
-    border: none;
+    border: none; 
     outline: none;
     padding-left: 1rem;
     box-shadow: -17px 13px 68px 0px rgba(7, 10, 25, 0.08);
@@ -128,3 +138,126 @@ button {
 .article_one {
     margin-right: 1rem;
 }
+
+.section_two {
+    margin: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_two_item {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.section_two_item p {
+    padding-right: 4rem;
+}
+
+.section_three {
+    margin: 2rem;
+    display: flex;
+}
+
+.section_three img {
+    padding-right: 3rem;
+}
+
+.section_three p {
+    width: 454.218px;
+}
+
+.btn_sec {
+    color: black;
+    padding: 13px 24px;
+    border: 1.5px solid #223237;
+    font-weight: 600;
+}
+
+.section_four {
+    margin-left: 3rem;
+}
+
+.section_four p {
+    width: 418.033px;
+}
+
+/* SECTION FIVE  */
+
+.section_five .title {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.bg {
+    position: absolute;
+}
+.section_five h3 {
+    font-size: 36px;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.section_five p {
+   width: 389.193px;
+}
+.quote {
+    display: inline-block;
+    width: 50%;
+}
+.article {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.pictures {
+   width: 50%;
+}
+
+.decor img {
+    position: relative;
+}
+.costumer img {
+    position: absolute;
+}
+
+.section_six {
+    text-align: center;
+    background:  #223237;
+    padding: 3rem;
+}
+
+.section_six h3{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+/* .section_six p {
+    width: 486.198px;
+} */
+
+.email-input {
+    padding: 1rem;
+}
+
+.sub-btn {
+    padding: 1rem;
+    background: #EFCC49;
+}
+
+footer {
+    background: #223237;
+    text-align: center;
+}
+
+.f-menu {
+    display: inline-block;
+    font-size: 14px;
+}
+
