@@ -14,7 +14,7 @@ body {
 }
 
 .logo img {
-    margin-left: 6rem;
+    margin-left: 3rem;
 }
 
 #menu{
@@ -39,9 +39,7 @@ a {
 }
 
 .icon {
-    display: inline-block;
- 
-    
+    display: inline-block;  
 }
 
 .icon img {
@@ -66,12 +64,15 @@ button {
 p {
     color: #A5A5A5;
 }
+
+
 /* SECTION ONE  */
 
 .pr {
     display: flex;
     flex-direction: column;
 }
+
 .section_one {
     padding-right: 140px;
     /* min-width: 30vh; */
@@ -95,7 +96,6 @@ p {
     width: 677px;
     height: 485px;
 }
-
 
 .ornamet {
     display: inline-block;
@@ -251,13 +251,40 @@ p {
     background: #EFCC49;
 }
 
+
+
+/* FOOTER  */
+
 footer {
     background: #223237;
     text-align: center;
 }
 
 .f-menu {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     font-size: 14px;
+    margin: 1rem;
 }
 
+.social {
+    display: flex;
+}
+
+.listHead {
+    color: white;
+    font-size: 14px;
+}
+.list {
+    line-height: 2.5rem;
+}
+
+.list ul li {
+    padding-top: 0.5rem;
+}
+.text {
+    text-align: left;
+    width: 183.601px;
+    line-height: 2.5rem;
+    margin-left: 3rem;
+}
